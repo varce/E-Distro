@@ -52,5 +52,8 @@ web/core/assets
 # Ignore contrib modules
 web/modules/contrib
 
+# Ignore contrib themes
+web/themes/contrib
+
 # Ignore core
 web/core
