@@ -2,7 +2,6 @@ global-css:
   css:
     theme:
       css/redipd.css: {}
-      css/colors.css: {}
 
 global-js:
   header: true

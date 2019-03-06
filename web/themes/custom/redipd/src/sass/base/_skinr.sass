@@ -1,9 +1,9 @@
 // HTML
 
 /// @ignore Font size.
-//$default-font-size: $rem-base
+$default-font-size: $rem-base
 
-//html
+html
   font-size: $default-font-size
 
 // --------------------------------------------------
@@ -11,15 +11,15 @@
 // BODY
 
 /// @ignore Body background color.
-//$body-background-color: $cream
+$body-background-color: $white
 
 /// @ignore Default color.
-//$default-color: $grey
+$default-color: $black
 
 /// @ignore Default font family.
-//$default-font-family: $roboto
+$default-font-family: $source-sans
 
-//body
+body
   background-color: $body-background-color
   color: $default-color
   font-family: $default-font-family
@@ -31,17 +31,17 @@
 // HEADINGS
 
 /// @ignore Titles font family.
-//$title-font-family: $roboto-condensed
+$title-font-family: $source-sans
 
 /// @ignore Titles color.
-//$title-color: $secondary-shade-color
+$title-color: $black
 
-//h1,
-//h2,
-//h3,
-//h4,
-//h5,
-//h6
+h1,
+h2,
+h3,
+h4,
+h5,
+h6
   color: $title-color
   font-family: $title-font-family
   font-weight: 700
@@ -63,26 +63,23 @@
 //h6
   line-height: 1.4
 
-//h1
-  font-size: calc-rem(40px)
-  line-height: 1.13
+h1
+  font-size: calc-rem(38px)
+  line-height: 1.14
   margin: 2rem 0 1.5rem
   +breakpoint($large)
-    font-size: calc-rem(44px)
+    font-size: calc-rem(42px)
     margin: 1.5rem 0
 
-  &.page-title
-    margin-top: 0
-
-//h2
-  font-size: calc-rem(36px)
+h2
+  font-size: calc-rem(44px)
   +breakpoint($large)
-    font-size: calc-rem(40px)
+    font-size: calc-rem(48px)
 
-//h3
-  font-size: calc-rem(32px)
+h3
+  font-size: calc-rem(16px)
   +breakpoint($large)
-    font-size: calc-rem(36px)
+    font-size: calc-rem(20px)
 
 //h4
   font-size: calc-rem(28px)
@@ -125,61 +122,6 @@
   &:hover
     color: $link-hover-color
     text-decoration: none
-
-// ------------------------------------------------
-
-// BLOCKQUOTES
-
-/// @ignore Blockquotes color.
-//$blockquote-color: $default-color
-
-/// @ignore Blockquotes font family.
-//$blockquote-font-family: $default-font-family
-
-//blockquote
-  +icomoon-text($ico-quote-start, 32px, $secondary-color, top, start)
-  +icomoon-text($ico-quote-end, 32px, $secondary-color, bottom, end, 32px, transparent, 0, after)
-  border: 0
-  margin: 2rem 0
-  padding-left: 2rem
-  padding-right: 2rem
-  +breakpoint($medium)
-    margin: 2rem 0
-
-  *
-    color: $blockquote-color
-    font-family: $blockquote-font-family
-    font-size: calc-rem(18px)
-    font-style: italic
-    line-height: 1.6
-    +breakpoint($large)
-      font-size: calc-rem(22px)
-
-  > p
-    &:first-child
-      display: block
-      margin-top: 0
-
-    &:last-child
-      margin-bottom: 0
-
-// ------------------------------------------------
-
-// Mark
-
-/// @ignore  Mark Background color.
-//$mark-background-color: $grey
-
-/// @ignore  Mark Color.
-//$mark-color: $white
-
-//mark,
-//.marker
-  background-color: $mark-background-color
-  color: $mark-color
-  float: right
-  font-size: calc-rem(14px)
-  padding: .5rem
 
 // ------------------------------------------------
 
