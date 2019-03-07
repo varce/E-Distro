@@ -108,9 +108,6 @@
             "drupal/redirect": {
                 "Support for wildcards": "https://www.drupal.org/files/issues/2018-12-10/redirect-wildcard-support-2831605.patch"
             },
-            "drupal/entity_clone": {
-                "Clone option shows regardless of permisison": "https://www.drupal.org/files/issues/2018-09-19/clone-operation-shows-regardless-of-permission-2743379-22.patch"
-            },
             "drupal/core": {
                 "ImageWidget::validateRequiredFields() produces an error message if an image field is hidden": "https://www.drupal.org/files/issues/2018-12-18/2715859-40-setLimitValidationErrors_0.patch"
             }
