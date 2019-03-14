@@ -1,0 +1,26 @@
+uuid: 63b4feaf-1932-4021-800c-4f316c475812
+langcode: en
+status: false
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - redipd
+_core:
+  default_config_hash: xpnMryxeprq2jHbpMiuSWRFkmPoBWB0lZeW8f8IJ1c8
+id: redipd_main_menu
+theme: redipd
+region: header
+weight: -6
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main navigation'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 0
+visibility: {  }

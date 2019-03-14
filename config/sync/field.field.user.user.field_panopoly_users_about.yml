@@ -1,0 +1,24 @@
+uuid: 615f7225-a90f-4161-a64f-cf37f6c859ea
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_panopoly_users_about
+  module:
+    - text
+    - user
+_core:
+  default_config_hash: _WpXvhn4ofb827RXlG1lBH9QYQLgx-gRB0M6zlslbTI
+id: user.user.field_panopoly_users_about
+field_name: field_panopoly_users_about
+entity_type: user
+bundle: user
+label: About
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+field_type: text_with_summary

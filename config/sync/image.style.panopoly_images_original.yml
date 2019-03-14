@@ -1,0 +1,9 @@
+uuid: dd9a0952-66c0-470a-ad6f-882cbe8a6e19
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: tJn5ufquD41tMq1TCJQrvg6xWRdjj3XzJMA_OIkCf0s
+name: panopoly_images_original
+label: 'Original size'
+effects: {  }

@@ -1,0 +1,11 @@
+uuid: 2b1eede3-b348-4f8c-9845-a6c6e9734644
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: H7bKfAVx4lN3SN9nN6LYjTkKJOxvYd9WfNP-y2BIatk
+name: 'Media tags'
+vid: panopoly_media_tags
+description: 'Tags used to categorize media however you see fit!'
+hierarchy: 0
+weight: 0

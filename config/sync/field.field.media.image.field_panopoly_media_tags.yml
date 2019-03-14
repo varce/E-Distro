@@ -1,0 +1,31 @@
+uuid: 2eadd128-3e64-4284-97b5-7368534623d1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_panopoly_media_tags
+    - media.type.image
+    - taxonomy.vocabulary.panopoly_media_tags
+_core:
+  default_config_hash: mwnQRdr4e1aQeJHBjXMOSCAjIwlpJw9OAd6gXbzrAIM
+id: media.image.field_panopoly_media_tags
+field_name: field_panopoly_media_tags
+entity_type: media
+bundle: image
+label: Tags
+description: 'Tags used to categorize media however you see fit!'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      panopoly_media_tags: panopoly_media_tags
+    sort:
+      field: name
+      direction: asc
+    auto_create: true
+    auto_create_bundle: ''
+field_type: entity_reference

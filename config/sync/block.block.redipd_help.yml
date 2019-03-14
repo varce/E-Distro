@@ -1,0 +1,22 @@
+uuid: cf48048f-9d0e-46b8-ae06-8f82bf5c01d5
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - redipd
+_core:
+  default_config_hash: fT-MBXQfkdGSRHZh26vBCJDjDFiTOd9KyHFmVCnCfTo
+id: redipd_help
+theme: redipd
+region: content
+weight: -7
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

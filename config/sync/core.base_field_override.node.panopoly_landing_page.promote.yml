@@ -1,0 +1,24 @@
+uuid: e6578b8a-d3a1-414f-9889-25c9f8224223
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.panopoly_landing_page
+_core:
+  default_config_hash: lOd3_RVQdbPY505rcwZUfZ2dmpP-oAAZM2LwFDf3JwM
+id: node.panopoly_landing_page.promote
+field_name: promote
+entity_type: node
+bundle: panopoly_landing_page
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

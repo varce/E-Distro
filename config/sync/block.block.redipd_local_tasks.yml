@@ -1,0 +1,22 @@
+uuid: 21065779-b165-4c78-90d3-2e95ddd88f23
+langcode: en
+status: true
+dependencies:
+  theme:
+    - redipd
+_core:
+  default_config_hash: TETGF8hRWoqiXReJ6_UbBaqcjXrXieZiaEochiBvghA
+id: redipd_local_tasks
+theme: redipd
+region: content
+weight: -5
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

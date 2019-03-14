@@ -1,0 +1,37 @@
+uuid: 0b1e8adb-2a97-4e88-9811-ae5eff73bdd9
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.media.embed_small
+    - field.field.media.image.field_media_image
+    - field.field.media.image.field_panopoly_media_description
+    - field.field.media.image.field_panopoly_media_tags
+    - image.style.panopoly_images_thumbnail
+    - media.type.image
+  module:
+    - image
+_core:
+  default_config_hash: lLrI0dK8USnwUEbRyQ_xwlPtigM-4kuwdqcCK2SzQOc
+id: media.image.embed_small
+targetEntityType: media
+bundle: image
+mode: embed_small
+content:
+  field_media_image:
+    label: hidden
+    settings:
+      image_style: panopoly_images_thumbnail
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    weight: 1
+    region: content
+hidden:
+  created: true
+  field_panopoly_media_description: true
+  field_panopoly_media_tags: true
+  langcode: true
+  name: true
+  thumbnail: true
+  uid: true

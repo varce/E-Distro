@@ -1,0 +1,20 @@
+uuid: 28cf2b0e-4661-43f5-a082-ea839782fea7
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+_core:
+  default_config_hash: 1aHy5HiHmPJNvSVt7P4g0lgYsHE5UGgxI7uDX6FWDhE
+name: 'Content page'
+type: panopoly_content_page
+description: 'An important page to display to users on your site.'
+help: ''
+new_revision: false
+preview_mode: 0
+display_submitted: false

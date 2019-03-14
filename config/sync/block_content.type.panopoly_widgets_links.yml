@@ -1,0 +1,10 @@
+uuid: 141d7608-3e25-43f3-800e-cd3590aee6e2
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: YShttwCBIf1GQmmd0El2SxZ-BZBeha-uJCsG-QcqXjs
+id: panopoly_widgets_links
+label: Links
+revision: 1
+description: 'A list of quick links.'

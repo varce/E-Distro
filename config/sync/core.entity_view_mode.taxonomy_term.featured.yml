@@ -1,0 +1,12 @@
+uuid: 1890a18d-9a35-454f-aa81-9cb25a5114af
+langcode: en
+status: true
+dependencies:
+  module:
+    - taxonomy
+_core:
+  default_config_hash: 1PU8KSTDtjmBNix0iazMbnTnXTfeEJbHsLJUGN6kd-c
+id: taxonomy_term.featured
+label: Featured
+targetEntityType: taxonomy_term
+cache: true

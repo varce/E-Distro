@@ -1,0 +1,10 @@
+uuid: df0946a7-3fef-42f0-89f7-5729e0b8ee41
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: Nraafwc0WoVOACWX0chOtY8KvcnT4LzN2GqxWkKBreM
+id: panopoly_day
+label: Day
+locked: false
+pattern: 'F j, Y'

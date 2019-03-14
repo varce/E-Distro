@@ -1,0 +1,22 @@
+uuid: f0dd59be-46c1-400e-ae30-f03fa7a6678c
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - redipd
+_core:
+  default_config_hash: t0dIhnCKrAcN6ByuqxaDkvk7LDqUcrCZ_ffk4p6XJh4
+id: redipd_breadcrumbs
+theme: redipd
+region: breadcrumb
+weight: -7
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  provider: system
+  label_display: '0'
+visibility: {  }

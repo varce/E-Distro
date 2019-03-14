@@ -1,0 +1,25 @@
+uuid: 71d04f23-2a4e-4989-a029-b295efabaee5
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:panopoly_widgets_image:ea55af97-5b8d-4b7a-a2a2-d17cbd3c12c5'
+  module:
+    - block_content
+  theme:
+    - redipd
+id: europeunionlogo
+theme: redipd
+region: footer
+weight: -8
+provider: null
+plugin: 'block_content:ea55af97-5b8d-4b7a-a2a2-d17cbd3c12c5'
+settings:
+  id: 'block_content:ea55af97-5b8d-4b7a-a2a2-d17cbd3c12c5'
+  label: 'Europe Union Logo'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

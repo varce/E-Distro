@@ -1,0 +1,11 @@
+uuid: 6e6dafe5-b4ea-4d5a-b3c6-0edd1a2b7cdc
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: rlOWgxSj7Nc4dVgLS2xaxjHVZNv9u9Csoy8JavNvygc
+id: editor
+label: Editor
+weight: 3
+is_admin: null
+permissions: {  }
