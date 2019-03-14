@@ -1,0 +1,10 @@
+uuid: ae331649-11d6-4e3f-9d6d-442fc6281d08
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: neTjE6ljfqy5hVe9KeEkmRc1MA_BuR42Wz2n3yCqLpU
+id: panopoly_widgets_image
+label: Image
+revision: 1
+description: 'A widget with an image, link and caption.'

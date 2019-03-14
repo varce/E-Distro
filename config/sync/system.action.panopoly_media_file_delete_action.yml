@@ -1,0 +1,13 @@
+uuid: d9b7a7ae-4e11-403d-a548-904949628741
+langcode: en
+status: true
+dependencies:
+  module:
+    - panopoly_media
+_core:
+  default_config_hash: I6aoynfHVIkwMUi6t2qVkBZAg8ZkcN_OEpty6UW4lQ4
+id: panopoly_media_file_delete_action
+label: 'Delete file'
+type: file
+plugin: panopoly_media_file_delete_action
+configuration: {  }

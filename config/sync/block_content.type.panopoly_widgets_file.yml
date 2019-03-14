@@ -1,0 +1,10 @@
+uuid: 5e7c8c40-5efc-4833-9907-cb70197af4c5
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: FifvAc9moEAZB7dGJ29kLO7LQrQPdPrPfO7GYcpdBHY
+id: panopoly_widgets_file
+label: File
+revision: 1
+description: 'A file widget with an optional bit of text.'

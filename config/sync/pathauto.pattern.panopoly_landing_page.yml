@@ -1,0 +1,24 @@
+uuid: 9ab394d4-71c8-4110-9db1-e375eecdad7b
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: Z7Y8kNr-kIVDvAefih6YaliIh4UG25NU4E7hcYO9V0Q
+id: panopoly_landing_page
+label: 'Panopoly Landing Page'
+type: 'canonical_entities:node'
+pattern: '[node:menu-link:parents:join-path]/[node:title]'
+selection_criteria:
+  6c23920b-bde5-4206-8019-ea13967f8ef7:
+    id: node_type
+    bundles:
+      panopoly_landing_page: panopoly_landing_page
+    negate: false
+    context_mapping:
+      node: node
+    uuid: 6c23920b-bde5-4206-8019-ea13967f8ef7
+selection_logic: and
+weight: -5
+relationships: {  }

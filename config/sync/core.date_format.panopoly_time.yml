@@ -1,0 +1,10 @@
+uuid: 107c6ed6-0b81-41fd-b5f4-7805a47e2fcf
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: htM_BsLeyFSoCWorgIxSZO-pZyBJTOqT3eeW1wn2djE
+id: panopoly_time
+label: Time
+locked: false
+pattern: 'g:ia'

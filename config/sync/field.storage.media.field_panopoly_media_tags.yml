@@ -1,0 +1,22 @@
+uuid: 72941ea0-6027-48ff-8aa7-f14e19148a17
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+    - taxonomy
+_core:
+  default_config_hash: RRjN2YnCh1iE4w3aJvx1WOH9KmqM4oZKTv2q56CSBqU
+id: media.field_panopoly_media_tags
+field_name: field_panopoly_media_tags
+entity_type: media
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

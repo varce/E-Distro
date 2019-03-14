@@ -1,0 +1,23 @@
+uuid: 2815a335-10c4-4e8b-a71f-c9a08e4cd5f1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.panelizer
+  module:
+    - panelizer
+    - user
+_core:
+  default_config_hash: B-u39Xp4CDhHZatFfOBlEezNQfTl6zy6iqA1jVtkjI0
+id: user.user.panelizer
+field_name: panelizer
+entity_type: user
+bundle: user
+label: Panelizer
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: panelizer

@@ -1,0 +1,25 @@
+uuid: c6db1e5c-1b14-438d-8189-80c2a586c6bd
+langcode: en
+status: false
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.panopoly_landing_page.panelizer
+    - node.type.panopoly_landing_page
+  module:
+    - user
+_core:
+  default_config_hash: ylaDo5xUwV7xYNjdbCobN8ca9uBiYHcRcO0-s8b_dqc
+id: node.panopoly_landing_page.teaser
+targetEntityType: node
+bundle: panopoly_landing_page
+mode: teaser
+content:
+  links:
+    weight: 100
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  langcode: true
+  panelizer: true

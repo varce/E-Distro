@@ -1,0 +1,22 @@
+uuid: 14f73187-4a82-438e-9205-105b6c02ddfb
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - taxonomy
+_core:
+  default_config_hash: Tfzn1ZmRXfC7z94IrzRYGebzVPeMC1ZePx0M2RwxDyU
+id: node.field_panopoly_categories
+field_name: field_panopoly_categories
+entity_type: node
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: true
+custom_storage: false
