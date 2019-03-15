@@ -1,0 +1,21 @@
+uuid: c2aa6f5d-78b0-4dd9-b9e1-71d19a20898f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_creation_date_event
+    - node.type.event
+  module:
+    - datetime
+id: node.event.field_creation_date_event
+field_name: field_creation_date_event
+entity_type: node
+bundle: event
+label: 'Fecha de creación'
+description: 'Fecha de creación'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

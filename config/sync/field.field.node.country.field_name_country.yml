@@ -1,0 +1,21 @@
+uuid: 81dae71e-f36d-427f-822b-866d73cfe6f3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_name_country
+    - node.type.country
+  module:
+    - text
+id: node.country.field_name_country
+field_name: field_name_country
+entity_type: node
+bundle: country
+label: Nombre
+description: Nombre
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

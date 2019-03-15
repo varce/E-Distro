@@ -1,0 +1,21 @@
+uuid: e6eabce6-4504-4b6f-85d9-75cb2d757cb4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_place
+    - node.type.event
+  module:
+    - text
+id: node.event.field_place
+field_name: field_place
+entity_type: node
+bundle: event
+label: Lugar
+description: Lugar
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text
