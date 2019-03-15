@@ -1,0 +1,31 @@
+uuid: 8cfa6876-b100-4b0d-9d8c-b302747f33ce
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.open_forum.body
+    - node.type.open_forum
+  module:
+    - text
+    - user
+id: node.open_forum.teaser
+targetEntityType: node
+bundle: open_forum
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  langcode: true

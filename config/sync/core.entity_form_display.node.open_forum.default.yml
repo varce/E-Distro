@@ -1,60 +1,43 @@
-uuid: a7b55bfb-d1df-44c7-81f5-6c5f117124ac
+uuid: d473bd12-f2a0-4589-b52d-508d49c39940
 langcode: en
 status: true
 dependencies:
   config:
-    - field.field.node.event.field_creation_date_event
-    - field.field.node.event.field_event_date
-    - field.field.node.event.field_panopoly_featured_image
-    - field.field.node.event.field_place
-    - field.field.node.event.field_publication_date_event
-    - image.style.thumbnail
-    - node.type.event
+    - field.field.node.open_forum.body
+    - field.field.node.open_forum.field_creation_date
+    - field.field.node.open_forum.field_publication_date
+    - node.type.open_forum
   module:
     - datetime
-    - image
     - path
     - text
-id: node.event.default
+id: node.open_forum.default
 targetEntityType: node
-bundle: event
+bundle: open_forum
 mode: default
 content:
+  body:
+    type: text_textarea_with_summary
+    weight: 1
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+    third_party_settings: {  }
+    region: content
   created:
     type: datetime_timestamp
-    weight: 8
+    weight: 6
     region: content
     settings: {  }
     third_party_settings: {  }
-  field_creation_date_event:
-    weight: 1
-    settings: {  }
-    third_party_settings: {  }
-    type: datetime_default
-    region: content
-  field_event_date:
+  field_creation_date:
     weight: 2
     settings: {  }
     third_party_settings: {  }
     type: datetime_default
     region: content
-  field_panopoly_featured_image:
-    weight: 4
-    settings:
-      progress_indicator: throbber
-      preview_image_style: thumbnail
-    third_party_settings: {  }
-    type: image_image
-    region: content
-  field_place:
-    weight: 5
-    settings:
-      size: 60
-      placeholder: ''
-    third_party_settings: {  }
-    type: text_textfield
-    region: content
-  field_publication_date_event:
+  field_publication_date:
     weight: 3
     settings: {  }
     third_party_settings: {  }
@@ -62,14 +45,14 @@ content:
     region: content
   langcode:
     type: language_select
-    weight: 6
+    weight: 4
     region: content
     settings:
       include_locked: true
     third_party_settings: {  }
   path:
     type: path
-    weight: 12
+    weight: 10
     region: content
     settings: {  }
     third_party_settings: {  }
@@ -77,21 +60,21 @@ content:
     type: boolean_checkbox
     settings:
       display_label: true
-    weight: 10
+    weight: 8
     region: content
     third_party_settings: {  }
   status:
     type: boolean_checkbox
     settings:
       display_label: true
-    weight: 13
+    weight: 11
     region: content
     third_party_settings: {  }
   sticky:
     type: boolean_checkbox
     settings:
       display_label: true
-    weight: 11
+    weight: 9
     region: content
     third_party_settings: {  }
   title:
@@ -103,13 +86,13 @@ content:
       placeholder: ''
     third_party_settings: {  }
   translation:
-    weight: 9
+    weight: 7
     region: content
     settings: {  }
     third_party_settings: {  }
   uid:
     type: entity_reference_autocomplete
-    weight: 7
+    weight: 5
     settings:
       match_operator: CONTAINS
       size: 60

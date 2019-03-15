@@ -1,16 +1,16 @@
-uuid: 6b651ffc-7005-42a2-8cd4-8bd9824d6302
+uuid: 6c683b93-f2ae-49d5-84a1-3fdfb1d64350
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.field_body
-    - node.type.news
+    - field.storage.node.body
+    - node.type.open_forum
   module:
     - text
-id: node.news.field_body
-field_name: field_body
+id: node.open_forum.body
+field_name: body
 entity_type: node
-bundle: news
+bundle: open_forum
 label: Body
 description: Body
 required: true

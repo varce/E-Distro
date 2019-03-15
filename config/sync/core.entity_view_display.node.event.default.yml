@@ -5,7 +5,6 @@ dependencies:
   config:
     - field.field.node.event.field_creation_date_event
     - field.field.node.event.field_event_date
-    - field.field.node.event.field_fecha_de_publicacion
     - field.field.node.event.field_panopoly_featured_image
     - field.field.node.event.field_place
     - field.field.node.event.field_publication_date_event
@@ -31,15 +30,6 @@ content:
     region: content
   field_event_date:
     weight: 106
-    label: above
-    settings:
-      format_type: medium
-      timezone_override: ''
-    third_party_settings: {  }
-    type: datetime_default
-    region: content
-  field_fecha_de_publicacion:
-    weight: 104
     label: above
     settings:
       format_type: medium

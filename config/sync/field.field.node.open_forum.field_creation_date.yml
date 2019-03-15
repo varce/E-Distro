@@ -1,0 +1,24 @@
+uuid: 866f4152-e1be-43fb-a860-47a8717f9350
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_creation_date
+    - node.type.open_forum
+  module:
+    - datetime
+id: node.open_forum.field_creation_date
+field_name: field_creation_date
+entity_type: node
+bundle: open_forum
+label: 'Fecha de creación'
+description: 'Fecha de creación'
+required: true
+translatable: false
+default_value:
+  -
+    default_date_type: now
+    default_date: now
+default_value_callback: ''
+settings: {  }
+field_type: datetime
