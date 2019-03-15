@@ -8,6 +8,7 @@ dependencies:
     - field.field.node.news.field_creation_date
     - field.field.node.news.field_panopoly_featured_image
     - field.field.node.news.field_publication_date
+    - field.field.node.news.field_summary
     - node.type.news
   module:
     - datetime
@@ -28,14 +29,14 @@ mode: teaser
 content:
   field_body:
     type: text_summary_or_trimmed
-    weight: 3
+    weight: 5
     region: content
     label: hidden
     settings:
       trim_length: 600
     third_party_settings: {  }
   field_creation_date:
-    weight: 1
+    weight: 3
     label: hidden
     settings:
       timezone_override: ''
@@ -53,7 +54,7 @@ content:
     type: image
     region: content
   field_publication_date:
-    weight: 2
+    weight: 4
     label: hidden
     settings:
       timezone_override: ''
@@ -62,5 +63,6 @@ content:
     type: datetime_default
     region: content
 hidden:
+  field_summary: true
   langcode: true
   links: true

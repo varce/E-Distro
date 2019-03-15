@@ -5,6 +5,7 @@ dependencies:
   config:
     - field.field.node.event.field_creation_date_event
     - field.field.node.event.field_event_date
+    - field.field.node.event.field_fecha_de_publicacion
     - field.field.node.event.field_panopoly_featured_image
     - field.field.node.event.field_place
     - field.field.node.event.field_publication_date_event
@@ -22,24 +23,30 @@ mode: default
 content:
   created:
     type: datetime_timestamp
-    weight: 8
+    weight: 10
     region: content
     settings: {  }
     third_party_settings: {  }
   field_creation_date_event:
-    weight: 1
+    weight: 123
     settings: {  }
     third_party_settings: {  }
     type: datetime_default
     region: content
   field_event_date:
-    weight: 2
+    weight: 126
+    settings: {  }
+    third_party_settings: {  }
+    type: datetime_default
+    region: content
+  field_fecha_de_publicacion:
+    weight: 124
     settings: {  }
     third_party_settings: {  }
     type: datetime_default
     region: content
   field_panopoly_featured_image:
-    weight: 4
+    weight: 121
     settings:
       progress_indicator: throbber
       preview_image_style: thumbnail
@@ -47,7 +54,7 @@ content:
     type: image_image
     region: content
   field_place:
-    weight: 5
+    weight: 122
     settings:
       size: 60
       placeholder: ''
@@ -55,21 +62,21 @@ content:
     type: text_textfield
     region: content
   field_publication_date_event:
-    weight: 3
+    weight: 125
     settings: {  }
     third_party_settings: {  }
     type: datetime_default
     region: content
   langcode:
     type: language_select
-    weight: 6
+    weight: 2
     region: content
     settings:
       include_locked: true
     third_party_settings: {  }
   path:
     type: path
-    weight: 12
+    weight: 30
     region: content
     settings: {  }
     third_party_settings: {  }
@@ -77,43 +84,48 @@ content:
     type: boolean_checkbox
     settings:
       display_label: true
-    weight: 10
+    weight: 15
     region: content
     third_party_settings: {  }
   status:
     type: boolean_checkbox
     settings:
       display_label: true
-    weight: 13
+    weight: 120
     region: content
     third_party_settings: {  }
   sticky:
     type: boolean_checkbox
     settings:
       display_label: true
-    weight: 11
+    weight: 16
     region: content
     third_party_settings: {  }
   title:
     type: string_textfield
-    weight: 0
+    weight: -5
     region: content
     settings:
       size: 60
       placeholder: ''
     third_party_settings: {  }
   translation:
-    weight: 9
-    region: content
+    weight: 10
     settings: {  }
     third_party_settings: {  }
+    region: content
   uid:
     type: entity_reference_autocomplete
-    weight: 7
+    weight: 5
     settings:
       match_operator: CONTAINS
       size: 60
       placeholder: ''
     region: content
     third_party_settings: {  }
+  url_redirects:
+    weight: 50
+    settings: {  }
+    third_party_settings: {  }
+    region: content
 hidden: {  }

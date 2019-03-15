@@ -18,4 +18,10 @@ content:
     third_party_settings: {  }
     region: content
 hidden:
+  field_creation_date_event: true
+  field_event_date: true
+  field_fecha_de_publicacion: true
+  field_panopoly_featured_image: true
+  field_place: true
+  field_publication_date_event: true
   langcode: true

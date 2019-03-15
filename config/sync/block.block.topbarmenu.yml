@@ -1,0 +1,24 @@
+uuid: 8e345985-29e1-4005-a951-c969c6451169
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.top-bar-menu
+  module:
+    - system
+  theme:
+    - redipd
+id: topbarmenu
+theme: redipd
+region: top_bar
+weight: -8
+provider: null
+plugin: 'system_menu_block:top-bar-menu'
+settings:
+  id: 'system_menu_block:top-bar-menu'
+  label: 'Top Bar Menu'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 0
+visibility: {  }
