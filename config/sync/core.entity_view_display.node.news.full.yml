@@ -8,6 +8,7 @@ dependencies:
     - field.field.node.news.field_creation_date
     - field.field.node.news.field_panopoly_featured_image
     - field.field.node.news.field_publication_date
+    - field.field.node.news.field_summary
     - node.type.news
   module:
     - datetime
@@ -59,6 +60,13 @@ content:
       timezone_override: ''
     third_party_settings: {  }
     type: datetime_default
+    region: content
+  field_summary:
+    weight: 6
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
     region: content
   links:
     weight: 7
