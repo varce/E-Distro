@@ -526,6 +526,7 @@ h3,
 h4,
 h5,
 h6 {
+  color: #1c1c1b;
   font-family: "Source Sans Pro", sans-serif;
   font-weight: 700;
   margin: 0;
@@ -562,6 +563,81 @@ h3 {
   h3 {
     font-size: 1.25rem;
   }
+}
+
+nav[id*='block-redipd-footer'] {
+  order: 0;
+}
+
+@media (min-width: 768px) {
+  nav[id*='block-redipd-footer'] {
+    order: 1;
+    padding: 0 4rem;
+  }
+}
+
+nav[id*='block-redipd-footer'] .menu {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+nav[id*='block-redipd-footer'] .menu a {
+  align-items: right;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  font-size: 0.875rem;
+  padding: .5rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 0.9px;
+}
+
+nav[id*='block-redipd-footer'] .menu a::after {
+  content: none;
+}
+
+.site-footer::before {
+  content: '';
+  background: url("../images/banderas.png");
+  display: block;
+  width: 100%;
+  height: 11px;
+}
+
+.site-footer .footer-wrapper {
+  background-color: #2f3538;
+  padding: 1rem;
+}
+
+@media (min-width: 319px) {
+  .site-footer .footer-wrapper .region {
+    justify-content: center;
+  }
+}
+
+@media (min-width: 768px) {
+  .site-footer .footer-wrapper .region {
+    align-items: center;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+  }
+}
+
+.site-footer .footer-wrapper .region #block-europeunionlogo {
+  order: 1;
+}
+
+@media (min-width: 768px) {
+  .site-footer .footer-wrapper .region #block-europeunionlogo {
+    order: 0;
+  }
+}
+
+.site-footer .footer-wrapper .region #block-europeunionlogo img {
+  width: 226px !important;
+  height: 72px;
 }
 
 /*# sourceMappingURL=maps/redipd.css.map */
