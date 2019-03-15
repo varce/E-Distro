@@ -1,17 +1,14 @@
-uuid: b0db7a09-8170-4ce2-b449-818624b326ab
+uuid: 7174a9ef-a2f8-4512-b5c5-2a17f513fbf0
 langcode: en
 status: true
 dependencies:
   config:
-    - core.entity_view_mode.node.full
-    - field.field.node.news.field_body
-    - field.field.node.news.field_creation_date
-    - field.field.node.news.field_panopoly_featured_image
-    - field.field.node.news.field_publication_date
-    - node.type.news
+    - field.field.node.open_forum.body
+    - field.field.node.open_forum.field_creation_date
+    - field.field.node.open_forum.field_publication_date
+    - node.type.open_forum
   module:
     - datetime
-    - image
     - panelizer
     - text
     - user
@@ -21,39 +18,30 @@ third_party_settings:
     custom: false
     allow: false
     default: default
-id: node.news.full
+id: node.open_forum.default
 targetEntityType: node
-bundle: news
-mode: full
+bundle: open_forum
+mode: default
 content:
-  field_body:
-    weight: 5
+  body:
     label: hidden
+    type: text_default
+    weight: 0
     settings: {  }
     third_party_settings: {  }
-    type: text_default
     region: content
   field_creation_date:
-    weight: 3
-    label: hidden
+    weight: 1
+    label: above
     settings:
       format_type: medium
       timezone_override: ''
     third_party_settings: {  }
     type: datetime_default
     region: content
-  field_panopoly_featured_image:
-    weight: 0
-    label: hidden
-    settings:
-      image_style: ''
-      image_link: ''
-    third_party_settings: {  }
-    type: image
-    region: content
   field_publication_date:
-    weight: 4
-    label: hidden
+    weight: 2
+    label: above
     settings:
       format_type: medium
       timezone_override: ''
@@ -61,7 +49,7 @@ content:
     type: datetime_default
     region: content
   links:
-    weight: 7
+    weight: 3
     region: content
     settings: {  }
     third_party_settings: {  }

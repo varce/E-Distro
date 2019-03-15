@@ -7,7 +7,6 @@ dependencies:
     - field.field.node.news.field_creation_date
     - field.field.node.news.field_panopoly_featured_image
     - field.field.node.news.field_publication_date
-    - field.field.node.news.field_summary
     - node.type.news
   module:
     - datetime
@@ -61,13 +60,6 @@ content:
     third_party_settings: {  }
     type: datetime_default
     region: content
-  field_summary:
-    type: text_default
-    weight: 6
-    region: content
-    label: above
-    settings: {  }
-    third_party_settings: {  }
 hidden:
   langcode: true
   links: true

@@ -1,16 +1,16 @@
-uuid: da6dab9b-e087-42f8-b063-a8cb74ec6708
+uuid: 9f63923a-ce99-4849-b6a5-b4f937042750
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.field_publication_date_event
-    - node.type.event
+    - field.storage.node.field_publication_date
+    - node.type.open_forum
   module:
     - datetime
-id: node.event.field_publication_date_event
-field_name: field_publication_date_event
+id: node.open_forum.field_publication_date
+field_name: field_publication_date
 entity_type: node
-bundle: event
+bundle: open_forum
 label: 'Fecha de publicación'
 description: 'Fecha de publicación'
 required: true
