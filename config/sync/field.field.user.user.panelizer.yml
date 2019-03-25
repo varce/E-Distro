@@ -1,5 +1,5 @@
 uuid: 2815a335-10c4-4e8b-a71f-c9a08e4cd5f1
-langcode: en
+langcode: es
 status: true
 dependencies:
   config:
@@ -16,7 +16,7 @@ bundle: user
 label: Panelizer
 description: ''
 required: false
-translatable: true
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings: {  }

@@ -1,5 +1,5 @@
 uuid: 9ac10cdc-0c6f-48f8-8bec-7283173b8936
-langcode: en
+langcode: es
 status: true
 dependencies: {  }
 _core:
@@ -7,5 +7,5 @@ _core:
 id: zxx
 label: 'Not applicable'
 direction: ltr
-weight: 3
+weight: 6
 locked: true

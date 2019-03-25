@@ -1,5 +1,5 @@
 uuid: 46159def-a75b-4ffd-b99a-fb92659afee9
-langcode: en
+langcode: es
 status: true
 dependencies:
   config:
@@ -16,7 +16,7 @@ bundle: panopoly_widgets_image
 label: Caption
 description: ''
 required: false
-translatable: true
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings:

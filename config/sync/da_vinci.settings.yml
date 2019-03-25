@@ -3,7 +3,7 @@ logo:
   use_default: true
 _core:
   default_config_hash: DS_Fi0eMyfLcS8VctYnMtCyPPQfvzI9v3aF1Nv6xr8Q
-langcode: en
+langcode: es
 features:
   node_user_picture: true
   comment_user_picture: true

@@ -1,5 +1,5 @@
 uuid: 161811e3-ca0b-4a29-9eb8-c0e24a56a547
-langcode: en
+langcode: es
 status: true
 dependencies:
   config:
@@ -16,7 +16,7 @@ bundle: panopoly_content_page
 label: Body
 description: ''
 required: false
-translatable: true
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings:

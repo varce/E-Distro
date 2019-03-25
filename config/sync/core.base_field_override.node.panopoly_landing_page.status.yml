@@ -1,0 +1,22 @@
+uuid: 0ac0ff9f-e746-47d1-a6fd-6a8a4b47b022
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.panopoly_landing_page
+id: node.panopoly_landing_page.status
+field_name: status
+entity_type: node
+bundle: panopoly_landing_page
+label: Published
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

@@ -11,8 +11,8 @@ id: node.news.field_body
 field_name: field_body
 entity_type: node
 bundle: news
-label: Body
-description: Body
+label: Cuerpo
+description: Cuerpo
 required: true
 translatable: false
 default_value: {  }

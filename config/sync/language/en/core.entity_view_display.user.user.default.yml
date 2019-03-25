@@ -1,0 +1,6 @@
+third_party_settings:
+  panelizer:
+    displays:
+      default:
+        label: Default
+        page_title: '[user:name]'
