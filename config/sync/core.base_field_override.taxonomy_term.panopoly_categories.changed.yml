@@ -1,0 +1,18 @@
+uuid: d22af2fe-e414-4f7f-a69d-9da24dc5e2ad
+langcode: es
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.panopoly_categories
+id: taxonomy_term.panopoly_categories.changed
+field_name: changed
+entity_type: taxonomy_term
+bundle: panopoly_categories
+label: Changed
+description: 'The time that the term was last edited.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

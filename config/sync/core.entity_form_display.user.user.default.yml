@@ -1,8 +1,9 @@
 uuid: 3629b3b7-f235-429c-80e7-b857e82a113f
-langcode: en
+langcode: es
 status: true
 dependencies:
   config:
+    - field.field.user.user.field_pais
     - field.field.user.user.field_panopoly_users_about
     - field.field.user.user.panelizer
     - field.field.user.user.user_picture
@@ -21,13 +22,19 @@ mode: default
 content:
   account:
     weight: 0
+    region: content
     settings: {  }
     third_party_settings: {  }
-    region: content
   contact:
     weight: 5
+    region: content
     settings: {  }
     third_party_settings: {  }
+  field_pais:
+    weight: 7
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
     region: content
   field_panopoly_users_about:
     weight: 3
@@ -40,9 +47,9 @@ content:
     region: content
   language:
     weight: 2
+    region: content
     settings: {  }
     third_party_settings: {  }
-    region: content
   path:
     type: path
     weight: 1
@@ -51,9 +58,9 @@ content:
     region: content
   timezone:
     weight: 6
+    region: content
     settings: {  }
     third_party_settings: {  }
-    region: content
   user_picture:
     type: image_image
     weight: 4
