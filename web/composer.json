@@ -138,7 +138,7 @@
       "url": "https://packages.drupal.org/8"
     },
     {
-      "url": "https://github.com/jmfegu/da_vinci.git",
+      "url":"https://github.com/jmfegu/da_vinci.git",
       "type": "vcs"
      }
   ]
