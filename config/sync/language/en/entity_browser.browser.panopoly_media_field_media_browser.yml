@@ -1,0 +1,12 @@
+label: 'Panopoly Media Field Browser'
+display_configuration:
+  link_text: Browse
+widgets:
+  828212e6-5506-4f23-a333-4b56a08ac85b:
+    settings:
+      submit_text: Select
+    label: View
+  ee8606e5-1b38-4c5d-9cc3-e71ae053cb4e:
+    label: 'Upload files'
+  a36a243c-e298-4b28-9eb2-4a9976879176:
+    label: 'Upload images'

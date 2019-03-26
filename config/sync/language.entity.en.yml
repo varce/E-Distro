@@ -1,5 +1,5 @@
 uuid: 8b6a49d3-0c7d-4104-8653-fbbfca9910c5
-langcode: en
+langcode: es
 status: true
 dependencies: {  }
 _core:
@@ -7,5 +7,5 @@ _core:
 id: en
 label: English
 direction: ltr
-weight: 0
+weight: 3
 locked: false

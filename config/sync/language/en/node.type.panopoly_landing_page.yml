@@ -1,0 +1,3 @@
+name: 'Landing page'
+description: 'A primary landing page to display to users on your site.'
+help: "<p>Here you can set the <em>Landing Page's</em> metadata, for example the title, path and menu options.</p>\r\n<p>To add content to the page, first save this form and then use the tray at the bottom of the page.</p>"
