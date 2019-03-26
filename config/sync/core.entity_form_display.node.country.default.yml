@@ -3,12 +3,14 @@ langcode: en
 status: true
 dependencies:
   config:
+    - field.field.node.country.field_name_country
     - field.field.node.country.field_panopoly_featured_image
     - image.style.thumbnail
     - node.type.country
   module:
     - image
     - path
+    - text
 id: node.country.default
 targetEntityType: node
 bundle: country
@@ -16,12 +18,20 @@ mode: default
 content:
   created:
     type: datetime_timestamp
-    weight: 4
+    weight: 10
     region: content
     settings: {  }
     third_party_settings: {  }
+  field_name_country:
+    weight: 122
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textfield
+    region: content
   field_panopoly_featured_image:
-    weight: 1
+    weight: 121
     settings:
       progress_indicator: throbber
       preview_image_style: thumbnail
@@ -37,7 +47,7 @@ content:
     third_party_settings: {  }
   path:
     type: path
-    weight: 8
+    weight: 30
     region: content
     settings: {  }
     third_party_settings: {  }
@@ -45,39 +55,39 @@ content:
     type: boolean_checkbox
     settings:
       display_label: true
-    weight: 6
+    weight: 15
     region: content
     third_party_settings: {  }
   status:
     type: boolean_checkbox
     settings:
       display_label: true
-    weight: 10
+    weight: 120
     region: content
     third_party_settings: {  }
   sticky:
     type: boolean_checkbox
     settings:
       display_label: true
-    weight: 7
+    weight: 16
     region: content
     third_party_settings: {  }
   title:
     type: string_textfield
-    weight: 0
+    weight: -5
     region: content
     settings:
       size: 60
       placeholder: ''
     third_party_settings: {  }
   translation:
-    weight: 5
-    region: content
+    weight: 10
     settings: {  }
     third_party_settings: {  }
+    region: content
   uid:
     type: entity_reference_autocomplete
-    weight: 3
+    weight: 5
     settings:
       match_operator: CONTAINS
       size: 60
@@ -85,8 +95,8 @@ content:
     region: content
     third_party_settings: {  }
   url_redirects:
-    weight: 9
-    region: content
+    weight: 50
     settings: {  }
     third_party_settings: {  }
+    region: content
 hidden: {  }

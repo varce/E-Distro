@@ -1,5 +1,5 @@
 uuid: 3b9af6a5-4935-46b9-a9e5-fd1c327875a4
-langcode: es
+langcode: en
 status: true
 dependencies:
   config:
@@ -16,7 +16,7 @@ bundle: video
 label: Description
 description: ''
 required: false
-translatable: false
+translatable: true
 default_value: {  }
 default_value_callback: ''
 settings:

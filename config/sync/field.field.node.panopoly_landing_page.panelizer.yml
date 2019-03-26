@@ -1,5 +1,5 @@
 uuid: 0c19aa87-0888-4691-ba42-92d3c1f2311a
-langcode: es
+langcode: en
 status: true
 dependencies:
   config:
@@ -16,7 +16,7 @@ bundle: panopoly_landing_page
 label: Panelizer
 description: ''
 required: false
-translatable: false
+translatable: true
 default_value: {  }
 default_value_callback: ''
 settings: {  }

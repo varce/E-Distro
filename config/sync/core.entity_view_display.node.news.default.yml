@@ -3,11 +3,11 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.field.node.news.field_advertise_on
     - field.field.node.news.field_body
+    - field.field.node.news.field_creation_date
     - field.field.node.news.field_panopoly_featured_image
+    - field.field.node.news.field_publication_date
     - field.field.node.news.field_summary
-    - field.field.node.news.panelizer
     - node.type.news
   module:
     - datetime
@@ -26,12 +26,20 @@ targetEntityType: node
 bundle: news
 mode: default
 content:
-  field_advertise_on:
-    weight: 4
-    label: above
+  field_body:
+    weight: 5
+    label: hidden
     settings:
-      format_type: medium
+      trim_length: 600
+    third_party_settings: {  }
+    type: text_summary_or_trimmed
+    region: content
+  field_creation_date:
+    weight: 3
+    label: hidden
+    settings:
       timezone_override: ''
+      format_type: long
     third_party_settings: {  }
     type: datetime_default
     region: content
@@ -44,15 +52,22 @@ content:
     third_party_settings: {  }
     type: image
     region: content
+  field_publication_date:
+    weight: 4
+    label: hidden
+    settings:
+      timezone_override: ''
+      format_type: long
+    third_party_settings: {  }
+    type: datetime_default
+    region: content
   field_summary:
     type: text_default
-    weight: 3
+    weight: 6
     region: content
-    label: hidden
+    label: above
     settings: {  }
     third_party_settings: {  }
 hidden:
-  field_body: true
   langcode: true
   links: true
-  panelizer: true

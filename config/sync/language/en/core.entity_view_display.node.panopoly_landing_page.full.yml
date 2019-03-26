@@ -1,5 +1,0 @@
-third_party_settings:
-  panelizer:
-    displays:
-      default:
-        page_title: '[node:title]'

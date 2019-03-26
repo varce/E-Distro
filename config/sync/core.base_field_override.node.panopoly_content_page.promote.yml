@@ -1,5 +1,5 @@
 uuid: 71602a09-e613-4ab3-b35f-84d72a7b1d7f
-langcode: es
+langcode: en
 status: true
 dependencies:
   config:
@@ -13,7 +13,7 @@ bundle: panopoly_content_page
 label: 'Promoted to front page'
 description: ''
 required: false
-translatable: false
+translatable: true
 default_value:
   -
     value: 1

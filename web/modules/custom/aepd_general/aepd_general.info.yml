@@ -1,5 +1,0 @@
-name: 'aepd_general'
-type: module
-description: 'Module for general task'
-core: 8.x
-package: 'AEPD'

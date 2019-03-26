@@ -1,9 +1,8 @@
 uuid: 808b00a0-a80a-45e1-a402-94926ed8b108
-langcode: es
+langcode: en
 status: true
 dependencies:
   config:
-    - field.field.user.user.field_pais
     - field.field.user.user.field_panopoly_users_about
     - field.field.user.user.panelizer
     - field.field.user.user.user_picture
@@ -38,14 +37,6 @@ targetEntityType: user
 bundle: user
 mode: default
 content:
-  field_pais:
-    weight: 7
-    label: above
-    settings:
-      link: true
-    third_party_settings: {  }
-    type: entity_reference_label
-    region: content
   field_panopoly_users_about:
     weight: 6
     label: above

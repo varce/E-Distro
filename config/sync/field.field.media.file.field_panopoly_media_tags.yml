@@ -1,5 +1,5 @@
 uuid: 0f7c6466-ac3c-4f7d-a94a-a9819e05851d
-langcode: es
+langcode: en
 status: true
 dependencies:
   config:
@@ -15,7 +15,7 @@ bundle: file
 label: Tags
 description: 'Tags used to categorize media however you see fit!'
 required: false
-translatable: false
+translatable: true
 default_value: {  }
 default_value_callback: ''
 settings:
