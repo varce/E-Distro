@@ -1,5 +1,5 @@
 uuid: 11790dd2-2512-4c7e-a8ae-6dd6671f5bec
-langcode: es
+langcode: en
 status: true
 dependencies:
   config:
@@ -16,7 +16,7 @@ bundle: file
 label: Description
 description: ''
 required: false
-translatable: false
+translatable: true
 default_value: {  }
 default_value_callback: ''
 settings:

@@ -1,0 +1,26 @@
+uuid: 35f7cb06-e713-4d5e-9689-272212a5a45d
+langcode: en
+status: false
+dependencies:
+  config:
+    - views.view.who_s_online
+  module:
+    - views
+  theme:
+    - redipd
+_core:
+  default_config_hash: p1Cmx6qQbZyDHzZy8EhZ67b-fBYL9k1fNJ5YKlb1ccU
+id: redipd_views_block__who_s_online_who_s_online_block
+theme: redipd
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'views_block:who_s_online-who_s_online_block'
+settings:
+  id: 'views_block:who_s_online-who_s_online_block'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility: {  }

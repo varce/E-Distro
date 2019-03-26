@@ -1,0 +1,22 @@
+uuid: 42026f76-e78a-4487-b1a1-be0c1d632008
+langcode: en
+status: false
+dependencies:
+  module:
+    - user
+  theme:
+    - redipd
+_core:
+  default_config_hash: ENVrteDme7Y29PQazfKaEHZepBvLtcG_Xc1kFAtP0Dc
+id: redipd_user_login
+theme: redipd
+region: sidebar_first
+weight: 0
+provider: null
+plugin: user_login_block
+settings:
+  id: user_login_block
+  label: 'User login'
+  provider: user
+  label_display: visible
+visibility: {  }

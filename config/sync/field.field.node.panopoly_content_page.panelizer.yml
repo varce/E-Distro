@@ -1,5 +1,5 @@
 uuid: 1d494b4e-241b-4884-9af0-68a35ce36551
-langcode: es
+langcode: en
 status: true
 dependencies:
   config:
@@ -16,7 +16,7 @@ bundle: panopoly_content_page
 label: Panelizer
 description: ''
 required: false
-translatable: false
+translatable: true
 default_value: {  }
 default_value_callback: ''
 settings: {  }

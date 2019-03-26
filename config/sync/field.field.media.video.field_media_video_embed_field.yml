@@ -1,5 +1,5 @@
 uuid: 5708d037-2a18-4900-b655-f5f59d419a13
-langcode: es
+langcode: en
 status: true
 dependencies:
   config:
@@ -16,7 +16,7 @@ bundle: video
 label: 'Video Url'
 description: ''
 required: true
-translatable: false
+translatable: true
 default_value: {  }
 default_value_callback: ''
 settings:
