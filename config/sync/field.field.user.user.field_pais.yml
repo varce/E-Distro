@@ -1,0 +1,29 @@
+uuid: e269a4e5-034b-43c7-8b78-5fb4b0b946d5
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_pais
+    - node.type.country
+  module:
+    - user
+id: user.user.field_pais
+field_name: field_pais
+entity_type: user
+bundle: user
+label: País
+description: 'Pais de usuario'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      country: country
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

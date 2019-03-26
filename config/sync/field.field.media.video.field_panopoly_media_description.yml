@@ -1,0 +1,24 @@
+uuid: 3b9af6a5-4935-46b9-a9e5-fd1c327875a4
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_panopoly_media_description
+    - media.type.video
+  module:
+    - text
+_core:
+  default_config_hash: TP4oEm3XlrB8RiW4aZUYbNe6WD_2kACUTG0rcn6Jdy8
+id: media.video.field_panopoly_media_description
+field_name: field_panopoly_media_description
+entity_type: media
+bundle: video
+label: Description
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+field_type: text_with_summary

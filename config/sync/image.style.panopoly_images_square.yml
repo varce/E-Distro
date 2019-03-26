@@ -1,0 +1,17 @@
+uuid: 52a6e494-13d8-4a20-abd5-aa4b8d997b60
+langcode: es
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: E33msrpO6793FEIofSFpEGJpWUzGLixRWTSF7y0Inb4
+name: panopoly_images_square
+label: Square
+effects:
+  0cfe4141-1ffb-4dd5-8952-bf3328525503:
+    uuid: 0cfe4141-1ffb-4dd5-8952-bf3328525503
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 200
+      height: 200
+      anchor: center-center

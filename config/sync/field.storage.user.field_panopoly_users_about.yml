@@ -1,0 +1,21 @@
+uuid: 5f28ff8b-be81-4538-b758-bc0ea615d71d
+langcode: es
+status: true
+dependencies:
+  module:
+    - text
+    - user
+_core:
+  default_config_hash: wSnOrd5SXkFTZZ47YjxYmcfslvLCJV0mPWGwVAbAUwg
+id: user.field_panopoly_users_about
+field_name: field_panopoly_users_about
+entity_type: user
+type: text_with_summary
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

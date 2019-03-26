@@ -1,0 +1,17 @@
+uuid: 2414bf12-438e-4b8e-bc2e-cb39c57c715e
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Evento
+type: event
+description: Evento
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

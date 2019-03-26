@@ -1,0 +1,12 @@
+uuid: 45c9b9ef-9630-49c7-84db-972d7e826d5e
+langcode: es
+status: true
+dependencies:
+  module:
+    - media
+_core:
+  default_config_hash: en71ylUqbutCH9axe0aRrAED8BdCTKgXXmtUCBjqUqM
+id: media.embed_large
+label: 'Embed: Large'
+targetEntityType: media
+cache: true

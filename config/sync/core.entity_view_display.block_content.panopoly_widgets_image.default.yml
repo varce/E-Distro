@@ -1,0 +1,37 @@
+uuid: bef620cd-d49e-48a4-bd0a-f1b120b8ae0b
+langcode: es
+status: true
+dependencies:
+  config:
+    - block_content.type.panopoly_widgets_image
+    - field.field.block_content.panopoly_widgets_image.body
+    - field.field.block_content.panopoly_widgets_image.field_panopoly_widgets_image
+    - image.style.panopoly_images_full
+  module:
+    - image
+    - text
+_core:
+  default_config_hash: bu254fZyvg3whOzmPfUWSmS-O-tlBWhNKb_fiaSRMgI
+id: block_content.panopoly_widgets_image.default
+targetEntityType: block_content
+bundle: panopoly_widgets_image
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 1
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_panopoly_widgets_image:
+    weight: 0
+    label: hidden
+    settings:
+      image_style: panopoly_images_full
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+hidden:
+  langcode: true

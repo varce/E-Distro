@@ -1,0 +1,40 @@
+uuid: 26fa35d9-b1bc-45b2-aee7-a09a1d41ce67
+langcode: es
+status: true
+dependencies:
+  config:
+    - block_content.type.panopoly_widgets_image
+    - field.storage.block_content.field_panopoly_widgets_image
+  module:
+    - image
+_core:
+  default_config_hash: izO4Fh9QztAsWoM06dJ8fLZ60V_JKaZSzblvmDSST1k
+id: block_content.panopoly_widgets_image.field_panopoly_widgets_image
+field_name: field_panopoly_widgets_image
+entity_type: block_content
+bundle: panopoly_widgets_image
+label: Image
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: image
+  file_extensions: 'png gif jpg jpeg'
+  max_filesize: ''
+  max_resolution: ''
+  min_resolution: ''
+  alt_field: true
+  alt_field_required: true
+  title_field: false
+  title_field_required: false
+  default_image:
+    uuid: ''
+    alt: ''
+    title: ''
+    width: null
+    height: null
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: image

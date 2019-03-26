@@ -1,0 +1,10 @@
+uuid: 40c5594e-5b30-48bc-9fbc-4be7a420ea54
+langcode: es
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: dJOvfzXZAVOH1d_gqmAFCm7eSZxesY0orFb9gpBX6DA
+id: panopoly_widgets_text
+label: Text
+revision: 1
+description: 'A simple widget containing text.'

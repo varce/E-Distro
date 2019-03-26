@@ -1,0 +1,22 @@
+uuid: 7ed00704-3ebc-433a-be6b-a746ec2e5d9d
+langcode: es
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.panopoly_categories
+id: taxonomy_term.panopoly_categories.status
+field_name: status
+entity_type: taxonomy_term
+bundle: panopoly_categories
+label: Published
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

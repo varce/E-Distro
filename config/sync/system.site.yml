@@ -1,0 +1,14 @@
+uuid: 2a3b46fb-0bb6-4c56-8840-de4ec82b591b
+name: 'Red Iberoamericana de Protección de datos'
+mail: drupal-security@emergya.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /user/login
+admin_compact_mode: false
+weight_select_max: 100
+langcode: es
+default_langcode: es
+_core:
+  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI

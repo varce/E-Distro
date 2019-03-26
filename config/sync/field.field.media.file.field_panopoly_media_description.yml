@@ -1,0 +1,24 @@
+uuid: 11790dd2-2512-4c7e-a8ae-6dd6671f5bec
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_panopoly_media_description
+    - media.type.file
+  module:
+    - text
+_core:
+  default_config_hash: 8Dq51a-QDD9ZbIGRZ1WSIDBQMDf8oOHRloT1n3euxgc
+id: media.file.field_panopoly_media_description
+field_name: field_panopoly_media_description
+entity_type: media
+bundle: file
+label: Description
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+field_type: text_with_summary

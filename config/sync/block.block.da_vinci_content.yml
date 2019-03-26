@@ -1,0 +1,22 @@
+uuid: 986df2b6-602c-4205-b880-87680c94e106
+langcode: es
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - da_vinci
+_core:
+  default_config_hash: FuWlPUyoNYQyixpJxw4mepod4rJA_BOYJiEniIVQhQ4
+id: da_vinci_content
+theme: da_vinci
+region: content
+weight: -4
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

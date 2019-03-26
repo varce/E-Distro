@@ -1,0 +1,34 @@
+uuid: 3ef1924c-042a-487b-a05f-0b654b36ddf3
+langcode: es
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.media.embed_large
+    - field.field.media.file.field_media_file
+    - field.field.media.file.field_panopoly_media_description
+    - field.field.media.file.field_panopoly_media_tags
+    - media.type.file
+  module:
+    - file
+_core:
+  default_config_hash: 2JbPRzLI-FMggOD4hKzEsNKSaRtaxjYpmS7T36qMtcM
+id: media.file.embed_large
+targetEntityType: media
+bundle: file
+mode: embed_large
+content:
+  field_media_file:
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: file_default
+    weight: 0
+    region: content
+hidden:
+  created: true
+  field_panopoly_media_description: true
+  field_panopoly_media_tags: true
+  langcode: true
+  name: true
+  thumbnail: true
+  uid: true

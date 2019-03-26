@@ -1,0 +1,17 @@
+uuid: 8208bd43-fee5-4c5d-83b1-33ca3d04c4bb
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: País
+type: country
+description: 'Each registered user has a country associated'
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: false

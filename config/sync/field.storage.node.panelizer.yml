@@ -1,0 +1,21 @@
+uuid: 59c8a3e9-11ad-4552-8c29-d0da952f5188
+langcode: es
+status: true
+dependencies:
+  module:
+    - node
+    - panelizer
+_core:
+  default_config_hash: EWOh0XbyyqOGcPqrD8KcPjGKEj8u0pKV7VA2UnhkgYM
+id: node.panelizer
+field_name: panelizer
+entity_type: node
+type: panelizer
+settings: {  }
+module: panelizer
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: true
+custom_storage: false

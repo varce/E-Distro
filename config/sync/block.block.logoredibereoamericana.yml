@@ -1,0 +1,25 @@
+uuid: 979a7f5a-43ee-4718-bce7-47dfa463264d
+langcode: es
+status: true
+dependencies:
+  content:
+    - 'block_content:panopoly_widgets_image:d31f0eb8-9b89-4b03-bee1-66af7caf8313'
+  module:
+    - block_content
+  theme:
+    - redipd
+id: logoredibereoamericana
+theme: redipd
+region: header
+weight: -5
+provider: null
+plugin: 'block_content:d31f0eb8-9b89-4b03-bee1-66af7caf8313'
+settings:
+  id: 'block_content:d31f0eb8-9b89-4b03-bee1-66af7caf8313'
+  label: 'Logo Red Ibereoamericana'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

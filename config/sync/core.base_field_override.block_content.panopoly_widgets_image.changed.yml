@@ -1,0 +1,18 @@
+uuid: db94e448-6e7c-4561-a289-e95789243cdd
+langcode: es
+status: true
+dependencies:
+  config:
+    - block_content.type.panopoly_widgets_image
+id: block_content.panopoly_widgets_image.changed
+field_name: changed
+entity_type: block_content
+bundle: panopoly_widgets_image
+label: Changed
+description: 'The time that the custom block was last edited.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

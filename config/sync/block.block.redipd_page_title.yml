@@ -1,0 +1,20 @@
+uuid: 55feddc7-3f0c-4ad7-8e58-eddba9b58f4b
+langcode: es
+status: true
+dependencies:
+  theme:
+    - redipd
+_core:
+  default_config_hash: X8r2smm__HsDEiyseS3DBkgWRbLyL20FbXuYHSY1taI
+id: redipd_page_title
+theme: redipd
+region: content
+weight: -8
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility: {  }

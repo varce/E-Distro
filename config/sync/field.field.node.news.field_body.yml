@@ -1,0 +1,22 @@
+uuid: 6b651ffc-7005-42a2-8cd4-8bd9824d6302
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_body
+    - node.type.news
+  module:
+    - text
+id: node.news.field_body
+field_name: field_body
+entity_type: node
+bundle: news
+label: Cuerpo
+description: Cuerpo
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+field_type: text_with_summary

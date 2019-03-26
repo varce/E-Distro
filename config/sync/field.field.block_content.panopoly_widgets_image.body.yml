@@ -1,0 +1,24 @@
+uuid: 46159def-a75b-4ffd-b99a-fb92659afee9
+langcode: es
+status: true
+dependencies:
+  config:
+    - block_content.type.panopoly_widgets_image
+    - field.storage.block_content.body
+  module:
+    - text
+_core:
+  default_config_hash: oetAjgCvh2Q4ssgOtqCVxlB4gJyG_Wtr9JoPsfBzHUQ
+id: block_content.panopoly_widgets_image.body
+field_name: body
+entity_type: block_content
+bundle: panopoly_widgets_image
+label: Caption
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+field_type: text_with_summary

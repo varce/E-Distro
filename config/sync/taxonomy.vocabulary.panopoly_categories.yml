@@ -1,0 +1,11 @@
+uuid: 6f6afbb4-23c6-4dbc-8ffd-d5e59856f6ff
+langcode: es
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: pZ1kgG2-Ukm6I1O9eaSoDg2Dt_q-7kEiW0tmkC70UEg
+name: Categories
+vid: panopoly_categories
+description: 'This is a sitewide taxonomy of categories to organize the content on your site!'
+hierarchy: 0
+weight: 0

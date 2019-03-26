@@ -1,0 +1,18 @@
+uuid: 2be7727c-1e21-4eb0-8967-45e23365ac9d
+langcode: es
+status: true
+dependencies:
+  config:
+    - block_content.type.panopoly_widgets_image
+id: block_content.panopoly_widgets_image.info
+field_name: info
+entity_type: block_content
+bundle: panopoly_widgets_image
+label: 'Block description'
+description: 'A brief description of your block.'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

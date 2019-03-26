@@ -1,0 +1,21 @@
+uuid: 7ffed182-010f-4a92-8b37-3b4bc5da55a6
+langcode: es
+status: true
+dependencies:
+  module:
+    - media
+    - text
+_core:
+  default_config_hash: S1Co2RGSs5XcUnniTgFEiFHo9g4fxE0dWYa9jhhMkPM
+id: media.field_panopoly_media_description
+field_name: field_panopoly_media_description
+entity_type: media
+type: text_with_summary
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

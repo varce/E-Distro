@@ -1,0 +1,17 @@
+uuid: be39bb2b-7f7a-46be-bd45-9ff6c03eb5c2
+langcode: es
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: g1ntNZbjNT-ve5qzMab40UmnUnAAGVDI4HmDuOfzzNI
+name: panopoly_images_full
+label: 'Full width (of the containing region - could upscale small images)'
+effects:
+  561c88ea-5d05-49e9-8dc9-2423e565e2b1:
+    uuid: 561c88ea-5d05-49e9-8dc9-2423e565e2b1
+    id: image_scale
+    weight: 1
+    data:
+      width: 960
+      height: null
+      upscale: false

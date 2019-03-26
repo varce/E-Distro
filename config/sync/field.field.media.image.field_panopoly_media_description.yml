@@ -1,0 +1,24 @@
+uuid: cecd048e-1f61-42d7-baba-cda526673e68
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_panopoly_media_description
+    - media.type.image
+  module:
+    - text
+_core:
+  default_config_hash: IIEQlOrETfVzI4MSFTYQXOJCNij5nislxgLwFQ0cJag
+id: media.image.field_panopoly_media_description
+field_name: field_panopoly_media_description
+entity_type: media
+bundle: image
+label: Description
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+field_type: text_with_summary

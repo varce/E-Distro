@@ -1,0 +1,26 @@
+uuid: 46139b5d-92cd-4f02-957d-3cc35c1fb074
+langcode: es
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - da_vinci
+_core:
+  default_config_hash: mIGDF1CGp18i8bvT8bfvu6zf3tVGynMNpoKMHMWH0dY
+id: da_vinci_mobile_main_menu
+theme: da_vinci
+region: sliding_panel
+weight: -7
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main navigation'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 0
+visibility: {  }
