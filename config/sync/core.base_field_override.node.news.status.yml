@@ -1,0 +1,22 @@
+uuid: 8114eace-4034-4a39-a32c-c0c20ed43b78
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.news
+id: node.news.status
+field_name: status
+entity_type: node
+bundle: news
+label: Published
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

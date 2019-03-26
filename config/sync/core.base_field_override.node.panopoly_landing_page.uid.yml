@@ -1,0 +1,20 @@
+uuid: bbde14c8-c731-459a-89fa-734ad3b5c4ae
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.panopoly_landing_page
+id: node.panopoly_landing_page.uid
+field_name: uid
+entity_type: node
+bundle: panopoly_landing_page
+label: 'Authored by'
+description: 'The username of the content author.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: 'Drupal\node\Entity\Node::getCurrentUserId'
+settings:
+  handler: default
+  handler_settings: {  }
+field_type: entity_reference

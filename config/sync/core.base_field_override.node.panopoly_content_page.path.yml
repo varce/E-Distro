@@ -1,0 +1,20 @@
+uuid: 93b54b84-74d6-4fab-8eb9-d2ac0cbf6391
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.panopoly_content_page
+  module:
+    - path
+id: node.panopoly_content_page.path
+field_name: path
+entity_type: node
+bundle: panopoly_content_page
+label: 'URL alias'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

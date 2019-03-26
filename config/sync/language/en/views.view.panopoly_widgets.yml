@@ -1,0 +1,47 @@
+label: 'Panopoly Widgets'
+description: 'Widgets implemented as views'
+display:
+  default:
+    display_title: Master
+    display_options:
+      exposed_form:
+        options:
+          submit_button: Apply
+          reset_button_label: Reset
+          exposed_sorts_label: 'Sort by'
+          sort_asc_label: Asc
+          sort_desc_label: Desc
+      fields:
+        field_panopoly_featured_image:
+          admin_label: Image
+          separator: ', '
+        title:
+          admin_label: Title
+          separator: ', '
+        created:
+          admin_label: 'Post date'
+          separator: ', '
+        changed:
+          admin_label: 'Updated date'
+          label: Updated
+          separator: ', '
+        name:
+          admin_label: Author
+          label: 'Posted by '
+          separator: ', '
+      filters:
+        type:
+          admin_label: 'Content type'
+          expose:
+            label: 'Content type'
+      sorts:
+        created:
+          admin_label: 'Post date'
+          expose:
+            label: 'Post date'
+      title: 'List of Content'
+  list_of_content:
+    display_title: 'List of content'
+    display_options:
+      block_description: 'List of content'
+      display_description: 'This is a customizable list of site content!'

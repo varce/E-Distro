@@ -1,0 +1,18 @@
+uuid: f75c1a78-7f99-4da4-bdc9-956116f9b089
+langcode: es
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.panopoly_media_tags
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: false
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: taxonomy_term.panopoly_media_tags
+target_entity_type_id: taxonomy_term
+target_bundle: panopoly_media_tags
+default_langcode: site_default
+language_alterable: false

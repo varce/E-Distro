@@ -1,0 +1,22 @@
+uuid: 30088956-08d4-414c-8864-4fe0215230b1
+langcode: es
+status: true
+dependencies:
+  config:
+    - block_content.type.panopoly_widgets_text
+id: block_content.panopoly_widgets_text.status
+field_name: status
+entity_type: block_content
+bundle: panopoly_widgets_text
+label: Published
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

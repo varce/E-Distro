@@ -1,0 +1,21 @@
+uuid: 19731947-be7a-42e5-a8e6-385f52c357fd
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.panelizer
+    - node.type.news
+  module:
+    - panelizer
+id: node.news.panelizer
+field_name: panelizer
+entity_type: node
+bundle: news
+label: Panelizer
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: panelizer

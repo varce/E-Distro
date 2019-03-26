@@ -3,13 +3,11 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.field.node.country.field_name_country
     - field.field.node.country.field_panopoly_featured_image
     - node.type.country
   module:
     - image
     - panelizer
-    - text
     - user
 third_party_settings:
   panelizer:
@@ -22,13 +20,6 @@ targetEntityType: node
 bundle: country
 mode: default
 content:
-  field_name_country:
-    weight: 0
-    label: hidden
-    settings: {  }
-    third_party_settings: {  }
-    type: text_default
-    region: content
   field_panopoly_featured_image:
     weight: 1
     label: hidden

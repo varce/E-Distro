@@ -1,0 +1,18 @@
+uuid: b17abf22-20bd-42d4-8160-931a49045af5
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.panopoly_landing_page
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: false
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: node.panopoly_landing_page
+target_entity_type_id: node
+target_bundle: panopoly_landing_page
+default_langcode: site_default
+language_alterable: false

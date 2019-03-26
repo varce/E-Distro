@@ -1,0 +1,22 @@
+uuid: b4798870-bcd9-488d-aff9-a11ce19b9138
+langcode: es
+status: true
+dependencies:
+  config:
+    - block_content.type.panopoly_widgets_image
+id: block_content.panopoly_widgets_image.status
+field_name: status
+entity_type: block_content
+bundle: panopoly_widgets_image
+label: Published
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

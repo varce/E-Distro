@@ -1,0 +1,18 @@
+uuid: 8b067649-cfd2-4392-853b-82414da7322f
+langcode: es
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.panopoly_media_tags
+id: taxonomy_term.panopoly_media_tags.metatag
+field_name: metatag
+entity_type: taxonomy_term
+bundle: panopoly_media_tags
+label: Metatags
+description: 'The meta tags for the entity.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: map
