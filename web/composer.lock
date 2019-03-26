@@ -134,7 +134,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/commerceguys/addressing/zipball/f23ce2596ccfb47bcdaa9d14fbf9b4f699dc3d4b",
                 "reference": "f23ce2596ccfb47bcdaa9d14fbf9b4f699dc3d4b",
-                "shasum": ""
+                "shasum":""
             },
             "require": {
                 "doctrine/collections": "~1.0",
