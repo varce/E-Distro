@@ -565,6 +565,35 @@ h3 {
   }
 }
 
+.block-basic-card {
+  background-color: #546e7a;
+  height: a;
+  width: 475px;
+}
+
+.block__card--general .card-litle {
+  font-size: 24px;
+  font-weight: 300;
+  display: block;
+  line-height: 32px;
+  margin-bottom: 1rem;
+}
+
+.block__card--general .field--type-link {
+  background-color: inherit;
+  border-top: 1px solid rgba(160, 160, 160, 0.2);
+  position: relative;
+  padding: 16px 24px;
+}
+
+.block__card--general .field--type-link a {
+  color: darkorange;
+}
+
+.block__card--general .field--type-link a:hover {
+  color: #ffc405;
+}
+
 nav[id*='block-redipd-footer'] {
   order: 0;
 }
