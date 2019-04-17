@@ -1,4 +1,21 @@
 .block__card--general
+  -webkit-box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2)
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2)
+  position: relative
+  margin: .5rem 0 1rem 0
+
+  &.block__card--large-size
+    height: auto
+    width: 475px
+
+  &.block__card--medium-size
+    height: auto
+    width: 415px
+
+  &.block__card--small-size
+    height: auto
+    width: 350px
+
 
   .card-litle
     font-size: 24px
@@ -17,3 +34,9 @@
       &:hover
         color: #ffc405
 
+  .wrapper-card-reveal-title-link,
+  .wrapper-description-link,
+  .wrapper-title-description,
+  .wrapper-image-title-link + .field--name-field-fab-card-description,
+  .wrapper-horizontal-image-description > .field--name-field-field-card-description
+    padding: 24px
